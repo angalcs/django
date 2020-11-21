@@ -9,14 +9,14 @@ First install pipenv using : pip install pipenv , Then go to /app directory and 
 
 url = "https://pypi.python.org/simple"
 verify_ssl = true
-name = "pypi"
+name="pypi"
 
 
 [packages]
 
-django = "*"
-gunicorn = "*"
-psycopg2 ="*"
+django="*"
+gunicorn="*"
+psycopg2="*"
 
 [dev-packages]
 
