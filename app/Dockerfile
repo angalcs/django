@@ -1,5 +1,5 @@
 FROM python:latest
-
+MAINTAINER "angalcs soroush.products@gmail.com"
 WORKDIR /usr/src/app
 
 ENV PYTHONDONTWRITEBYTECODE 1
