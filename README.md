@@ -20,31 +20,10 @@ First install pipenv using :
 ```
 $ pip install pipenv 
 ```
-Then go to app directory and create a file named pipfile and type the things below :
+Then go to app directory and create a file named pipfile and copy the pipfile text to it :
 ```
 $ cd ./app
 ```
-> [[source]]
-
-> url = "https://pypi.python.org/simple"
-> verify_ssl = true
-> name="pypi"
-
-
-> [packages]
-
-> django="*"
-> gunicorn="*"
-> psycopg2="*"
-
-[dev-packages]
-
-tox = "*"
-ipython = "*"
-
-[requires]
-
-python_version = "3.9" **
 
 then just run 
 ```
