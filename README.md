@@ -24,27 +24,27 @@ Then go to app directory and create a file named pipfile and type the things bel
 ```
 $ cd ./app
 ```
-* [[source]]
+** [[source]]
 
-* url = "https://pypi.python.org/simple"
-* verify_ssl = true
-* name="pypi"
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name="pypi"
 
 
-* [packages]
+[packages]
 
-* django="*"
-* gunicorn="*"
-* psycopg2="*"
+django="*"
+gunicorn="*"
+psycopg2="*"
 
-* [dev-packages]
+[dev-packages]
 
-* tox = "*"
-* ipython = "*"
+tox = "*"
+ipython = "*"
 
-* [requires]
+[requires]
 
-* python_version = "3.9"
+python_version = "3.9" **
 
 then just run 
 ```
