@@ -27,15 +27,15 @@ $ cd ./app
 > [[source]]
 
 > url = "https://pypi.python.org/simple"
-verify_ssl = true
-name="pypi"
+> verify_ssl = true
+> name="pypi"
 
 
-[packages]
+> [packages]
 
-django="*"
-gunicorn="*"
-psycopg2="*"
+> django="*"
+> gunicorn="*"
+> psycopg2="*"
 
 [dev-packages]
 
