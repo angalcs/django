@@ -1,9 +1,27 @@
-# django
-a simple django docker with postgres and nginx
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
+## General info
+A simple dockerized django project with postgres and nginx.
+	
+## Technologies
+Project is created with:
+* Django
+* Postgres
+* Nginx
+* Docker
+
+## Setup
 Well we don't use requirements.txt to install pip packages.
 Instead we install pipenv and simply use it to install pip packages with 2 simple commands.
 First install pipenv using : pip install pipenv , Then go to /app directory and create a file named pipfile and type the things below :
+```
+$ cd ./Resume
+$ python manage.py runserver
+```
+
 ##
 [[source]]
 
