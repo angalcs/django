@@ -24,9 +24,9 @@ Then go to app directory and create a file named pipfile and type the things bel
 ```
 $ cd ./app
 ```
-** [[source]]
+> [[source]]
 
-url = "https://pypi.python.org/simple"
+> url = "https://pypi.python.org/simple"
 verify_ssl = true
 name="pypi"
 
