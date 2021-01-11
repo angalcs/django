@@ -16,10 +16,13 @@ Project is created with:
 ## Setup
 Well we don't use requirements.txt to install pip packages.
 Instead we install pipenv and simply use it to install pip packages with 2 simple commands.
-First install pipenv using : pip install pipenv , Then go to /app directory and create a file named pipfile and type the things below :
+First install pipenv using :
 ```
-$ cd ./Resume
-$ python manage.py runserver
+$ pip install pipenv 
+```
+Then go to app directory and create a file named pipfile and type the things below :
+```
+$ cd ./app
 ```
 
 ##
