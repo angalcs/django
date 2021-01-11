@@ -46,5 +46,12 @@ $ cd ./app
 
 * python_version = "3.9"
 
-then just run pipenv lock and it creates a file named pipfile.lock
-after that u can use the pipfile.lock to install the packages using : pipenv install --skip-lock --system
+then just run 
+```
+$ pipenv lock 
+```
+and it creates a file named pipfile.lock
+after that u can use the pipfile.lock to install the packages using :
+```
+$ pipenv install --skip-lock --system
+```
